@@ -33,3 +33,8 @@ app.post('/checkout/', (req, res) => {
         console.log(error);
     });
 });
+
+// Server
+app.listen(3000, () => {
+    console.log("Corriendo en el puerto 3000");
+})
